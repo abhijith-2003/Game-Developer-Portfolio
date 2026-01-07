@@ -42,12 +42,12 @@ export const ProjectView = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left Column: Info */}
-          <div className="space-y-8 sticky top-24">
+          <div className="space-y-8 lg:sticky lg:top-24">
             <h1 className="text-3xl md:text-5xl font-bold text-left">
               {project.title}
             </h1>
 
-            <div className="p-8 rounded-2xl">
+            <div className="p-6 md:p-8 rounded-2xl">
               <h3 className="text-2xl font-semibold mb-4 text-left">
                 About the Game
               </h3>
@@ -56,19 +56,19 @@ export const ProjectView = () => {
               </p>
             </div>
 
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-4 pt-4">
               <a
                 href={project.demoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="cosmic-button flex items-center justify-center gap-2 min-w-[160px]"
+                className="cosmic-button flex items-center justify-center gap-2"
               >
                 <Play size={20} /> Play Now
               </a>
               <a
                 href={project.downloadUrl}
                 download
-                className="px-6 py-3 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 flex items-center justify-center gap-2 min-w-[160px]"
+                className="px-4 py-3 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 flex items-center justify-center gap-2"
               >
                 <Download size={20} /> Download
               </a>
