@@ -62,7 +62,7 @@ export const projects = [
             wizard4,
             wizard5,
         ],
-        demoUrl: "https://play.unity.com/en/games/cab6f90f-aa3d-4142-b7e4-4fbfb931ec69/wizard-shooter",
+        demoUrl: "https://play.unity.com/en/games/b8311245-eb67-4a16-94af-3c2a055e0496/wizard-shooter",
         downloadUrl: "#",
     },
 ];
